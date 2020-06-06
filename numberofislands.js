@@ -13,8 +13,7 @@ let array =
 ]
 
 
-
-//O(n^2) solution
+//O(n^2) solution since we need to iterate over a 2-D array
 let island = 0
 
 for (let i = 0; i < array.length; i++) {
