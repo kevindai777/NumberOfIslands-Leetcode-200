@@ -11,7 +11,8 @@ let array =
 [00000]]
 
 
-//O(n^2) solution since we need to iterate over a 2-D array
+//O(n * m) solution where n and m are the length and width of our parameters
+//We use a DFS traversal to iterate over the entire island
 let island = 0
 
 for (let i = 0; i < array.length; i++) {
